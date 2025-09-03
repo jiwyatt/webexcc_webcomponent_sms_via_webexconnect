@@ -408,6 +408,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     :host {
       display: block;
       max-width: 400px;
+      min-height: 300px;
+      max-height: 500px;
+      overflow-y: auto;
       margin: 0.25rem auto 0.75rem auto;
       padding: 1.25rem 1.25rem 1rem 1.25rem;
       color: #222;
